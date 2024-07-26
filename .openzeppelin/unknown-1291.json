@@ -1,0 +1,36 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xe3655E47F708200280358F05f712Cd7683426f57",
+      "txHash": "0x83077f8654c76d01a4aae1e1c62901728c1fef62f5ee2e57002a7bff5334dd2f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a5c90ea04a311837efdf8b21894f2f98d8159d57cc38d082cd1d8f12a18909af": {
+      "address": "0xbebC235a002F458717Bfad009E3ac1Dea956E9Db",
+      "txHash": "0x60cb575f0977968b68679ef45299b176b064ec260a6bd5a771cc6933351b9806",
+      "layout": {
+        "solcVersion": "0.8.20",
+        "storage": [
+          {
+            "label": "count",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_int256",
+            "contract": "Counter",
+            "src": "contracts/CounterV1.sol:5"
+          }
+        ],
+        "types": {
+          "t_int256": {
+            "label": "int256",
+            "numberOfBytes": "32"
+          }
+        },
+        "namespaces": {}
+      }
+    }
+  }
+}
